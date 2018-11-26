@@ -1,0 +1,13 @@
+.whimsical{
+    background:pink;
+    font-family:verdana;
+    font-style: italic;
+    color:purple}
+
+.ul1 {
+        list-style-image: url("images/flowerbullet.ico"); 
+        no-repeat top left;
+        line-height: 1px;
+        padding: 0 0 1px 70px;
+    }
+    
