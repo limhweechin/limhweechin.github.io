@@ -4,10 +4,69 @@
     font-style: italic;
     color:purple}
 
-.ul1 {
-        list-style-image: url("images/flowerbullet.ico"); 
-        no-repeat top left;
-        line-height: 1px;
-        padding: 0 0 1px 70px;
-    }
+.ul1{ 
+    list-style-type:none; }
+
+a:hover{
+    color:blue;
+    text-decoration:none}
+
+a:focus{
+    color:red}
+
+
+.my_box{
+    text-align: center;
+
+    background-color: aquamarine;
     
+    border: 5px solid black;
+
+    border-top:5px; /* use of px means item will be displayed with the same size across devices with different settings.\
+    whereas things like "2em" leaves the browser to decide the presentation, ie computed, optimised based on the browers. 
+    most browsers, <body> default is 12 px. % is the ratio to screen, for example screen widthue */
+    
+    border-top-style:dashed;
+    border-top-color:blue;
+
+    border-bottom:5px;
+    border-bottom-style:solid;
+    border-bottom-color:purple;
+
+    padding:20px;
+
+    margin:40px; /* this margin defines the space between divisions*/
+
+    width=80%
+    }
+
+.my_box2{
+    text-align:left;
+    color: white;
+    border: 5px solid black;
+    padding:20px;
+    padding-top:200px;
+    padding-bottom:200px;
+    background-image:url("images/MonetSunset.jpg");
+    background-size:cover;/*cover vs contain*/
+    background-repeat:no-repeat;
+    /*background-position:right;*/
+    background-attachment:fixed;
+    border-radius:10px;
+    margin:25px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    }
+
+    /*the following is to specify modifications when on mobile, which is typically less than 500px in width*/
+@media (max-width:500px){
+    .my_box2{margin:30px;};
+    h1{font-size:20px;};
+    
+}
+
+.my_input_text{
+    widows: 100%;
+    margin:3px;
+}
