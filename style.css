@@ -1,6 +1,6 @@
 .whimsical{
     background:pink;
-    font-family:verdana;
+    font-family:cursive;
     font-style: italic;
     color:purple}
 
@@ -70,3 +70,5 @@ a:focus{
     widows: 100%;
     margin:3px;
 }
+
+.h1update{font-family:"Unlock",Arial, Helvetica, sans-serif}
