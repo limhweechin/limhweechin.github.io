@@ -31,3 +31,35 @@ var total=200
 var qtyTotal=qty+total
 console.log(qtyTotal)
 
+var firstNumber;
+var secondNumber;
+var totalNumber;
+
+firstNumber=10;
+secondNumber=9;
+totalNumber=firstNumber+secondNumber;
+productNumber=firstNumber*secondNumber;
+divideNumber=firstNumber/secondNumber;
+console.log(totalNumber);
+console.log(productNumber);
+console.log(divideNumber);
+
+var strange=firstNumber+firstName;
+console.log(strange);
+
+firstNumber=true;
+firstNumber=false;
+
+var A=1;
+var B="1";
+var compareResult=(A==B);
+var differentResult=(A!=B);
+var compareResultIncludeType=(A===B);
+console.log(compareResult);
+console.log(differentResult);
+console.log(compareResultIncludeType);
+
+
+var myHTMLValue;
+myHTMLValue=document.getElementById("myUnique").value;
+console.log(myHTMLValue);
