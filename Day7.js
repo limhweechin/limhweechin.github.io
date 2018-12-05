@@ -44,7 +44,7 @@ var numberThree=document.getElementById("thirdNumber").value;
 var numberFour=document.getElementById("fourthNumber").value;
 var operator;
 
-operator=document.getElementById(sign).value;
+operator=document.getElementById("sign").value;
 var result;
 
 if(operator=="+"){
@@ -77,6 +77,7 @@ var step=0;
 /**Exercise 3 */
 
 var numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+var step=0;
 while(step<numbers.length){
     
     var isEven=numbers[step]%2;
